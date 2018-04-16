@@ -12,4 +12,5 @@ linearnaRegresija <- function(x, y) {
 	alpha <- y_ - beta * x_
 	print(alpha)
 	print(beta)
+	return(c(beta, alpha))
 }
